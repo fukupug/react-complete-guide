@@ -1,0 +1,8 @@
+.user-list {
+    background-color: white;
+}
+
+.user-list ul {
+  list-style: none;
+  padding: 0;
+}
