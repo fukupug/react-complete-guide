@@ -6,3 +6,8 @@
   list-style: none;
   padding: 0;
 }
+
+.user-list__fallback {
+  text-align: center;
+  font-weight: bold;
+}
