@@ -5,7 +5,7 @@ import styles from "./UserList.module.css";
 
 const UserList = (props) => {
   const userListItems = props.users.map((user) => {
-    return <UserListItem user={user} />;
+    return <UserListItem key={user.id} user={user} />;
   });
 
   return (
